@@ -6,6 +6,7 @@ class Ex1{
     public static void main(String[] args){
         //Declarando VARIÁVEIS em java: (tipo + nome_variavel, nome_variavel2...)
         int valor, cubo;
+        //Declara uma entrada na classe scanner 
         Scanner entrada;
 
         //ENTRADA

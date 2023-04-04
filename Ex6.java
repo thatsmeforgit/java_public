@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Ex6 {
     public static void main(String[] args){
         //VARIAVEIS
@@ -6,6 +8,8 @@ class Ex6 {
         Scanner entrada;
 
         //ENTRADA
+        entrada = new Scanner(System.in);
+        
         System.out.println("Informe o valor do seu boleto:\n R$");
         valor = entrada.nextFloat();
 
@@ -18,9 +22,9 @@ class Ex6 {
         entrada.close();
 
         //PROCESS
-        total = valor + valor * pj/100 * dias;
+        total = valor + valor * juros/100 * dias;
 
         //SAIDA
-        System.out.printf("O valor do boleto com juros é %f\n", total);
+        System.out.printf("O valor do boleto com juros é %.2f\n", total);
     }
 }

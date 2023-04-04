@@ -1,4 +1,4 @@
-class Ex4 {
+class Ex6 {
     public static void main(String[] args){
         //VARIAVEIS
         float valor, juros, total;

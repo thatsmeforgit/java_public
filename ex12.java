@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex12{
+public class Ex12{
     public static void main(String[] args) {
         //variáveis
         float a, b;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ex13 {
+class Ex13 {
     public static void main(String[] args){
         //variáveis
         int a, b, c;
